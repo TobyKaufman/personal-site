@@ -31,7 +31,8 @@ body {
 .routeButton {
   padding: 25%;
   display: inline-block;
-  border: #0a0a0a;
+  border: #ffffff;
+  border-radius: 5px;
   align-items: left;
 
 }
