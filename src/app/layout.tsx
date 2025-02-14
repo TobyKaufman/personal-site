@@ -25,10 +25,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <SpeedInsights></SpeedInsights>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <SpeedInsights></SpeedInsights>
+        
         {children}
       </body>
     </html>

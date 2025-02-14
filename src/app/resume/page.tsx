@@ -16,10 +16,11 @@ export default function Resume() {
   }}>Click here to download the PDF!</a>
             <iframe
                 src="/TKResumeN (1).pdf"
-                width="100%"
+                width="60%"
                 height="100%"
                 style={{ border: 'none' }}
                 title="PDF Viewer"
+                className="mx-auto"
             ></iframe>
         </div>
     )

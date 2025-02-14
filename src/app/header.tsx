@@ -1,9 +1,9 @@
 import Link from 'next/link';
 import React from 'react';
 
-const Header = () => {
+export default function Header() {
   return (
-    <header className="bg-black text-white p-4 shadow-lg">
+    <header className="bg-black text-white p-4 shadow-lg border-b">
       <div className="container mx-auto flex justify-between items-center">
         <div className="text-2xl font-bold">
           <Link href="/" className="hover:text-gray-300 transition-colors">
@@ -35,5 +35,3 @@ const Header = () => {
     </header>
   );
 };
-
-export default Header;
