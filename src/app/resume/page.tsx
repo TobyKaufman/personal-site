@@ -9,13 +9,13 @@ export default function Resume() {
 
             Resume not rendering?
             <br></br>
-            <a href="/TKResumeN (1).pdf" download="/TKResumeN (1).pdf" style={{
+            <a href="/resume.pdf" download="/resume.pdf" style={{
     color: 'blue',
     textDecoration: 'underline',
     cursor: 'pointer',
   }}>Click here to download the PDF!</a>
             <iframe
-                src="/TKResumeN (1).pdf"
+                src="/resume.pdf"
                 width="60%"
                 height="100%"
                 style={{ border: 'none' }}
